@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.weatherapp.MainActivity" >
+
+    <item
+        android:id="@+id/change_city"
+        android:orderInCategory="1"
+        android:title="@string/change_city"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/Exeter"
+        android:orderInCategory="2"
+        android:title="Exeter"
+        app:showAsAction=""/>
+
+    <item
+        android:id="@+id/London"
+        android:orderInCategory="3"
+        android:title="London"
+        app:showAsAction=""/>
+
+    <item
+        android:id="@+id/Manchester"
+        android:orderInCategory="4"
+        android:title="Manchester"
+        app:showAsAction=""/>
+
+    <item
+        android:id="@+id/Liverpool"
+        android:orderInCategory="5"
+        android:title="Liverpool"
+        app:showAsAction=""/>
+
+    <item
+        android:id="@+id/Vancouver"
+        android:orderInCategory="6"
+        android:title="Vancouver"
+        app:showAsAction=""/>
+
+    <item
+        android:id="@+id/Tokio"
+        android:orderInCategory="7"
+        android:title="Tokio"
+        app:showAsAction=""/>
+
+    <item
+        android:id="@+id/Barcelona"
+        android:orderInCategory="9"
+        android:title="Barcelona"
+        app:showAsAction=""/>
+
+    <item
+        android:id="@+id/Madrid"
+        android:orderInCategory="9"
+        android:title="Madrid"
+        app:showAsAction=""/>
+
+    <item
+        android:id="@+id/Paris"
+        android:orderInCategory="10"
+        android:title="Paris"
+        app:showAsAction=""/>
+
+    <item
+        android:id="@+id/New_York"
+        android:orderInCategory="11"
+        android:title="New York"
+        app:showAsAction=""/>
+
+    <item
+        android:id="@+id/Seville"
+        android:orderInCategory="12"
+        android:title="Seville"
+        app:showAsAction=""/>
+
+    <item
+        android:id="@+id/Rome"
+        android:orderInCategory="13"
+        android:title="Rome"
+        app:showAsAction=""/>
+
+    <item
+        android:id="@+id/Shangai"
+        android:orderInCategory="14"
+        android:title="Shangai"
+        app:showAsAction=""/>
+
+    <item
+        android:id="@+id/Toronto"
+        android:orderInCategory="15"
+        android:title="Toronto"
+        app:showAsAction=""/>
+
+    <item
+        android:id="@+id/Melbourne"
+        android:orderInCategory="16"
+        android:title="Melbourne"
+        app:showAsAction=""/>
+
+
+
+
+</menu>
+
