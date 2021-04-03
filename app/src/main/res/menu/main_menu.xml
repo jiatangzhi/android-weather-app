@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.MainActivity">
+
+    <group android:checkableBehavior="none">
+        <item android:title="@string/title_activities">
+            <menu>
+                <item
+                    android:id="@+id/navigation_item_2"
+                    android:visible="true"
+                    android:title="@string/title_my_location" />
+                <item
+                    android:id="@+id/navigation_item_3"
+                    android:icon="@drawable/sunny"
+                    android:title="@string/title_home_activity" />
+            </menu>
+        </item>
+    </group>
+
+    <item
+        android:id="@+id/sync"
+        android:icon="@drawable/sync"
+        android:orderInCategory="10"
+        android:title="@string/title_sync"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="80"
+        android:title="@string/title_app_settings" />
+
+    <item
+        android:id="@+id/action_help"
+        android:orderInCategory="100"
+        android:title="@string/title_app_help" />
+
+    <item android:title="@string/title_actions">
+        <menu>
+            <item
+                android:id="@+id/close"
+                android:icon="@drawable/close"
+                android:title="@string/title_close_app" />
+
+        </menu>
+    </item>
