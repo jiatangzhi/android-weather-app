@@ -1,3 +1,3 @@
 # Weather_App
 
-Android Studio
+A weather application created in Java using Android Studio.
